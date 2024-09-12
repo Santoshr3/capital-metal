@@ -24,6 +24,7 @@ const App = () => {
         {/* Main Content (Routing) */}
         <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="capital-metal" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/products" element={<Products />} />
           <Route path="/contact-us" element={<ContactUs />} />
