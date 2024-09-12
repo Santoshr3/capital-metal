@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/capital-metal/static/css/main.e3435128.css",
-    "main.js": "/capital-metal/static/js/main.7dd8f76e.js",
+    "main.js": "/capital-metal/static/js/main.68690436.js",
     "static/js/453.4e36fb6a.chunk.js": "/capital-metal/static/js/453.4e36fb6a.chunk.js",
     "static/media/backgrond-header-img.png": "/capital-metal/static/media/backgrond-header-img.8210de9b1d05716d6ce2.png",
     "static/media/bg-captial.png": "/capital-metal/static/media/bg-captial.c29b532db63fbd89099e.png",
@@ -67,11 +67,11 @@
     "static/media/ads2.png": "/capital-metal/static/media/ads2.c94f3a325ff1d7824918.png",
     "index.html": "/capital-metal/index.html",
     "main.e3435128.css.map": "/capital-metal/static/css/main.e3435128.css.map",
-    "main.7dd8f76e.js.map": "/capital-metal/static/js/main.7dd8f76e.js.map",
+    "main.68690436.js.map": "/capital-metal/static/js/main.68690436.js.map",
     "453.4e36fb6a.chunk.js.map": "/capital-metal/static/js/453.4e36fb6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3435128.css",
-    "static/js/main.7dd8f76e.js"
+    "static/js/main.68690436.js"
   ]
 }
