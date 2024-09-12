@@ -1,0 +1,631 @@
+
+.home-banner-main {
+    background-image: url("./assets/img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    position: relative;
+  }
+  .home-banner-main::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .home-banner-sub {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    padding-left: 100px;
+  }
+  .home-banner-main h4 {
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+    position: relative;
+  }
+  .home-banner-main h2 {
+    font-size: 42px;
+    color: #fff;
+    margin: 10px 0 30px;
+    line-height: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .home-banner-main p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    margin: 0;
+    line-height: 26px;
+  }
+  .home-banner-main button {
+    font-size: 16px;
+    height: 40px;
+    padding: 0 14px;
+    background: #fff;
+    color: #fff;
+    border: 1px solid #fff;
+    color: #005a7c;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .home-why-contractor-refers {
+    padding: 80px 0;
+    background-color: #eee;
+  }
+  .home-banner-contract img {
+    width: 100%;
+  }
+  .home-banner-contract {
+    padding-right: 27px;
+  }
+  .home-contractors-inner h4 {
+    font-size: 16px;
+    color: #005a7c;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 40px;
+  }
+  
+  .home-contractors-inner h4:before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: #005a7c;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .home-contractors-inner h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 10px 0 30px;
+    line-height: 42px;
+    font-weight: bold;
+    max-width: 470px;
+  }
+  
+  .home-contractors-inner p {
+    font-size: 16px;
+    line-height: 21px;
+    columns: #333;
+    margin: 0;
+  }
+  .home-contractors-inner button {
+    font-size: 16px;
+    height: 40px;
+    padding: 0 14px;
+    background: #005a7c;
+    color: #fff;
+    border: 1px solid #005a7c;
+    margin-top: 30px;
+  }
+  .home-contractors-cards {
+    margin-top: 40px;
+  }
+  .homecard {
+    padding-right: 28px;
+    position: relative;
+  }
+  .homecard.left:before {
+    content: "";
+    height: 120px;
+    width: 2px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+      right: 6px;
+    transform: translateY(-50%);
+  }
+  .homecard h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  .homecard p {
+    font-size: 16px;
+    line-height: 19px;
+    columns: #333;
+    margin: 0;
+  }
+  .homecard button {
+    font-size: 16px;
+    height: 40px;
+    padding: 0 14px;
+    background: #005a7c;
+    color: #fff;
+    border: 1px solid #005a7c;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  .home-what-we-do-carousel {
+    text-align: center;
+    padding: 80px 0;
+  }
+  .home-what-we-do-carousel h4 {
+    font-size: 16px;
+    color: #005a7c;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 40px;
+  }
+  .home-what-we-do-carousel h4:before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: #005a7c;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: -128px;
+    margin: 0 auto;
+  }
+  .home-what-we-do-carousel h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 10px 0 30px;
+    line-height: 42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    max-width: 100%;
+  }
+  .home-why-choose-us {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #eee;
+  }
+  .home-why-choose-us h4 {
+    font-size: 16px;
+    color: #005a7c;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 40px;
+  }
+  .home-why-choose-us h4:before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: #005a7c;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: -128px;
+    margin: 0 auto;
+  }
+  .home-why-choose-us h2 {
+    font-size: 32px;
+    color: #333;
+    line-height: 42px;
+    font-weight: bold;
+    max-width: 430px;
+    margin: 10px auto 50px;
+  }
+  .home-roofing-img img {
+    width: 100%;
+  }
+  .home-roofing-img {
+    padding-right: 40px;
+  }
+  .home-roof-sub-card {
+    display: flex;
+    margin-bottom: 70px;
+    padding-right: 30px;
+  }
+  .img-block {
+    background-color: #005a7c;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .img-block img {
+    max-width: 30px;
+  }
+  .home-roof-sub-card h5 {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-whatwedo-card {
+    padding: 0 14px;
+    position: relative;
+  }
+  .home-whatwedo-card img {
+    width: 100%;
+  }
+  .home-card-equipement {
+    text-align: center;
+    padding: 15px 20px;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+      0 2px 6px 2px rgba(60, 64, 67, 0.15);
+    border-radius: 4px;
+    background-color: #eee;
+    max-width: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -19px;
+  }
+  .home-news-blog ul.slick-dots li {
+    height: 3px;
+    width: 20px;
+    background: #ccc;
+  }
+  .home-news-blog ul.slick-dots li.slick-active {
+    background-color: #000;
+  }
+  .home-news-blog .slick-dots li button:before {
+    font-size: 0;
+  }
+  .home-whatwedo-card {
+    position: relative;
+    min-height: 328px;
+    margin-bottom: 50px;
+  }
+  .home-card-equipement img {
+    max-width: 60px;
+    margin: -38px 0 20px;
+    position: relative;
+  }
+  .home-card-equipement {
+    text-align: left;
+  }
+  .home-card-equipement:before {
+    content: "";
+    background-color: #e8c301;
+    height: 5px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .home-card-equipement h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  .home-card-equipement a {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #005a7c;
+    position: relative;
+  }
+  .home-card-equipement a:after {
+    content: "→";
+    font-size: 20px;
+    color: #005a7c;
+    display: inline-block;
+    position: absolute;
+    top: -2px;
+    right: -23px;
+    font-weight: bold;
+  }
+  .home-card-equipement p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #333;
+    margin: 0;
+  }
+  .home-testimonials {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #3c6b7c;
+    color: #fff;
+  }
+  .home-testimonials h4 {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 40px;
+  }
+  .home-testimonials h4:before {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: -128px;
+    margin: 0 auto;
+  }
+  .home-testimonials h2 {
+    font-size: 32px;
+    color: #fff;
+    line-height: 42px;
+    font-weight: bold;
+    max-width: 430px;
+    margin: 10px auto 50px;
+  }
+  .home-testimonial-blog {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .home-test-slider {
+    display: flex;
+    align-items: center;
+  }
+  .testimonial-img-block {
+    max-width: 30%;
+    flex: 0 0 30%;
+  }
+  
+  .testimonial-img-block img {
+    width: 100%;
+    height: 215px;
+  }
+  .testimonial-content {
+    max-width: 70%;
+    flex: 0 0 70%;
+    padding: 20px;
+    text-align: left;
+    flex-grow: 1;
+    background-color: #3b596b;
+  }
+  .testimonial-content p {
+    font-size: 14px;
+  }
+  
+  .testimonial-content::before {
+    content: "";
+    background-image: url("./assets/img/quotes.png");
+    background-size: contain;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+  }
+  .home-testimonial-blog .slick-next:before {
+    display: none;
+  }
+  .home-testimonial-blog .slick-next::after {
+    content: "";
+    background-image: url("./assets/img/rightarrow.png");
+    background-size: contain;
+    position: relative;
+    display: inline-block;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+    height: 216px;
+    max-width: 100px;
+   min-width: 100px;
+  
+  }
+  
+  .home-testimonial-blog .slick-next {
+    right: -35px;
+    top: 11px;
+  }
+  .home-testimonial-blog .slick-prev:before {
+    display: none;
+  }
+  .home-testimonial-blog .slick-prev::after {
+    content: "";
+    background-image: url("./assets/img/leftarrow.png");
+    background-size: contain;
+    position: relative;
+    display: inline-block;
+    right: 84px;
+    top: -101px;
+    background-repeat: no-repeat;
+    height: 216px;
+    width: 180px;
+  }
+  
+  .home-testimonial-blog .slick-next {
+    right: -35px;
+    top: 11px;
+  }
+  
+  .home-video-banner {
+    padding: 120px 0;
+    background-image: url("./assets/img/vbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+  .home-video-banner::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .video-inner {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: flex;
+  }
+  .video-inner .vtext {
+    flex-grow: 1;
+    max-width: 50%;
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .video-inner h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    max-width: 356px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .video-inner h1:before {
+    content: "";
+    background-color: #e8c301;
+    width: 10px;
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .video-inner .vimg {
+    flex-grow: 1;
+    max-width: 50%;
+    flex: 0 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .vimg img {
+    max-width: 70px;
+    border-radius: 50%;
+  }
+  .home_news_blog{
+    padding: 80px 0 0;
+    background-color: #000;
+  }
+  .home_news_blog .home-whatwedo-card{
+    padding: 0;
+  }
+  .home_news_blog .home-card-equipement{
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  .home_news_blog .home-card-equipement:before{
+    display: none;
+  }
+  .home_news_blog h4{
+    color: #fff;
+  }
+  .home_news_blog p{
+    color: #fff;
+  }
+  .home_news_blog ul{
+    padding-left: 0;
+  }
+  .home_news_blog .home-card-equipement img {
+    max-width: 60px;
+    margin: 0;
+    position: absolute;
+    top: -48px;
+  }
+  .home_news_blog li {
+    height: 2px;
+    width: 15px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  @media (max-width: 767px) {
+    .home-banner-main {
+      background-size: cover;
+      padding: 60px 0;
+    }
+    .home-banner-sub{
+      padding-left: 0;
+    }
+    .home-banner-main h2{
+      font-size: 32px;
+    }
+    .home-banner-contract{
+      padding: 0 0 30px;
+    }
+    .homecard.left:before{
+      display: none;
+    }
+    .home-testimonial-blog .slick-next:after{
+      display: none;
+    }
+    .home-testimonial-blog .slick-next::before{
+      display: block;
+    }
+    .home-testimonial-blog .slick-prev::after{
+      display: none;
+    }
+    .home-testimonial-blog .slick-prev::before{
+      display: block;
+    }
+    .home-why-contractor-refers{
+      padding: 40px 0;
+    }
+    .vimg img{
+      max-width: 50px;
+    }
+    .homecard{
+      margin-bottom: 20px;
+      padding: 0;
+    }
+    .home-contractors-inner button{
+      margin-top: 0;
+    }
+    .home-video-banner{
+      padding: 40px 0;
+    }
+    .video-inner h1{
+      font-size: 20px;
+    }
+    .home-why-choose-us{
+      padding: 40px 0;
+  
+    }
+  
+    .home-roofing-img{
+      padding: 0 0 30px;
+    }
+    .home-roof-sub-card{
+      padding: 0;
+      margin: 0 0 20px;
+    }
+    .home-testimonial-blog{
+      max-width: 90%;
+    }
+    .home-testimonial-blog .slick-next {
+      right: -30px;
+      top: 50%;
+  }
+  .testimonial-content::before{
+    height: 30px;
+    width: 30px;
+  }
+  .testimonial-img-block img{
+    height: 247px;
+  }
+  .home-contractors-inner h2,
+  .home-what-we-do-carousel h2,
+  .home-why-choose-us h2, 
+  .home-testimonials h2{
+    font-size: 28px;
+    line-height: 30px;
+  }
+  }
+  
