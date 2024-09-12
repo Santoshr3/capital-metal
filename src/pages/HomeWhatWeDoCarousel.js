@@ -9,9 +9,13 @@ const WhatWeDoCarousel = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     slidesToShow: 3,
-    slidesToScroll: 1,responsive: [
+    slidesToScroll: 1,
+    speed: 5000, 
+    autoplay: true, 
+    autoplaySpeed: 1500,
+    responsive: [
       
       {
         breakpoint: 480,

@@ -8,8 +8,8 @@ import Products from "./pages/Products";
 import ContactUs from "./pages/ContactUs";
 import Gallery from "./pages/Gallery";
 import Shop from "./pages/Shop";
-import "./assets/style.css";
 import Aboutus from "./pages/Aboutus";
+import RequestQuote from "./pages/RequestQuote";
 
 const App = () => {
   return (
@@ -30,6 +30,7 @@ const App = () => {
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/request-quote" element={<RequestQuote />} />
           {/* Add more routes here as needed */}
         </Routes>
 

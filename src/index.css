@@ -269,52 +269,6 @@ code {
 .MT5 {
   margin-top: 20px !important;
 }
-@media (max-width: 991px) {
-  .metalpairs {
-    grid-template-columns: 1fr !important;
-  }
-  .metalpair div img {
-    width: 50%;
-  }
-}
-@media (max-width: 767px) {
-  .productimg {
-    display: none;
-  }
-
-  .about-roofing-container {
-    margin: 40px 0;
-  }
-  .about-whychoose-img {
-    margin-top: 30px;
-    padding: 0;
-  }
-  .about-img-wrapper {
-    margin: 0;
-    padding: 0 5px;
-  }
-  .about-img-wrapper img {
-    margin-bottom: 10px;
-  }
-  .about-cards {
-    margin-bottom: 20px;
-  }
-  .about-reason-img {
-    padding: 0;
-  }
-  .about-reason-img {
-    margin-bottom: 20px;
-  }
-  .about-inner {
-    min-height: 130px;
-  }
-  .about-wrapper.roofing-solutions h2 {
-    margin-bottom: 20px;
-  }
-  .about-leading {
-    margin-bottom: 70px;
-  }
-}
 
 .gallery_dropdown_div {
   margin: 20px 15px !important;
@@ -491,7 +445,7 @@ code {
 .home-banner-sub {
   position: relative;
   z-index: 1;
-  max-width: 600px;
+  max-width: 630px;
   padding-left: 100px;
 }
 .home-banner-main h4 {
@@ -1025,6 +979,167 @@ code {
   display: inline-block;
   margin-right: 20px;
 }
+
+.top-bar {
+  font-size: 0.9rem;
+}
+
+.nav-list .nav-link {
+  font-weight: bold;
+}
+.footer-rights {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 1px solid #034057;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.footer {
+  padding-top: 50px;
+  background-color: #13202a;
+}
+
+.footer .card {
+  background: linear-gradient(45deg, #0d6efd, #2a5298);
+  border-radius: 8px;
+}
+.follow-us a {
+  border: 1px solid #fff;
+  border-radius: 7px;
+  padding: 4px 10px;
+  margin-right: 10px;
+}
+
+.footer h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.recent-ads {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.footer ul {
+  padding-left: 0;
+  line-height: 2.5;
+}
+
+.footer ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+}
+
+.footer .input-group input {
+  border-radius: 0;
+}
+
+.footer .input-group button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0;
+}
+
+.footer .input-group button:hover {
+  background-color: #0056b3;
+}
+
+.footer a.text-light:hover {
+  color: #fff;
+}
+.footer .text-light{
+  cursor: pointer;
+}
+.footer p {
+  font-size: 0.9rem;
+}
+
+/* Global styles for sticky footer */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.navbar-nav .nav-link {
+  font-size: 18px !important;
+}
+.navbar-nav .nav-link{
+  font-weight: bold;
+  color: #005a7c;
+}
+.text-primary {
+  color: #003d56 !important;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .follow-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  }
+  .sm {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .metalpairs {
+    grid-template-columns: 1fr !important;
+  }
+  .metalpair div img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    align-items: normal;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 110px;
+  }
+  .flex-header-div {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
 @media (max-width: 767px) {
   .home-banner-main {
     background-size: cover;
@@ -1105,155 +1220,47 @@ code {
     font-size: 28px;
     line-height: 30px;
   }
-}
-
-.top-bar {
-  font-size: 0.9rem;
-}
-
-.nav-list .nav-link {
-  font-weight: bold;
-}
-.footer-rights{
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-  border-top: 1px solid #034057;
-}
-
-
-
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.footer {
-  padding-top: 50px;
-  background-color: #13202a;
-}
-
-.footer .card {
-  background: linear-gradient(45deg, #0d6efd, #2a5298);
-  border-radius: 8px;
-}
-.follow-us a{
-  border: 1px solid #fff;
-  border-radius: 7px;
-  padding: 4px 10px;
-}
-
-.footer h6 {
-  font-weight: bold;
-  margin-bottom:10px;
-}  
-.recent-ads{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-
-.footer ul {
-  padding-left: 0;
-  line-height: 2.5;
-}
-
-.footer ul li a {
-  color: #ddd;
-  text-decoration: none;
-}
-
-.footer ul li a:hover {
-  color: #fff;
-}
-
-.footer .input-group input {
-  border-radius: 0;
-}
-
-.footer .input-group button {
-  background-color: #007bff;
-  border: none;
-  border-radius: 0;
-}
-
-.footer .input-group button:hover {
-  background-color: #0056b3;
-}
-
-.footer a.text-light:hover {
-  color: #fff;
-}
-
-.footer p {
-  font-size: 0.9rem;
-}
-
-
-/* Global styles for sticky footer */
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-#root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex: 1;
-}
-
-@media (min-width: 768px) {
-  .navbar-expand-md .navbar-collapse {
-      display: flex !important;
-      flex-basis: auto;
-      align-items: normal;
-      justify-content: flex-start;
-      flex-direction: column;
-      height: 110px;
+  .productimg {
+    display: none;
   }
-  .flex-header-div{
-    display: flex !important;
-    justify-content: center;
-    flex-direction: column;
+
+  .about-roofing-container {
+    margin: 40px 0;
+  }
+  .about-whychoose-img {
+    margin-top: 30px;
     padding: 0;
-  
+  }
+  .about-img-wrapper {
+    margin: 0;
+    padding: 0 5px;
+  }
+  .about-img-wrapper img {
+    margin-bottom: 10px;
+  }
+  .about-cards {
+    margin-bottom: 20px;
+  }
+  .about-reason-img {
+    padding: 0;
+  }
+  .about-reason-img {
+    margin-bottom: 20px;
+  }
+  .about-inner {
+    min-height: 130px;
+  }
+  .about-wrapper.roofing-solutions h2 {
+    margin-bottom: 20px;
+  }
+  .about-leading {
+    margin-bottom: 70px;
+  }
+  .footer {
+    text-align: center;
+  }
+
+  .top-bar {
+    display: none;
   }
 }
-@media (max-width: 991px) and (min-width:768px) {
-  .follow-us{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    row-gap: 10px;
-    } 
-    .sm{display: none;}
-}
-
-@media (max-width: 767px) {
-
-  .footer{text-align: center;}
- 
-  .top-bar{display: none;}
- }
-
-.navbar-nav {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-}
-.navbar-nav .nav-link{font-size: 18px !important;}
-
-
-.text-primary{color:#003d56 !important;}
-
-
